@@ -1,9 +1,21 @@
-header{
+.zapas{
+    width: 353px;
+    height: 353px;
+    padding: 30px;
+}
+.img a img{
     display: flex;
+    justify-content: flex-end;
+    width: 25px;
 }
-.logoheader img{
-    height: 60.1px;
+.seccionimg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.iconosheader img{
-    height: 48px;
+.caja{
+    justify-content: space-around;
+}
+.imgfooter img{
+    height: 40px;
 }

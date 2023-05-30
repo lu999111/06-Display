@@ -1,0 +1,10 @@
+header{
+    display: flex;
+}
+.logoheader img{
+    height: 60.1px;
+}
+.iconosheader{
+    display: inline-block;
+    height: 4px;
+}
