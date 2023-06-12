@@ -1,56 +1,93 @@
 @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@1,200&display=swap');
+/*fuente*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*ajustes header*/
+
 .navheader ul{
-list-style: none;
+    list-style: none;
 }
 .navheader ul li{
     display: inline;
     padding: 10px;
 }
-.botonheader ul li{
-    border: 1.5px solid black;
+.botonheader{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #3b3a3a;
+    width: 100px;
+    height: 50px;
     border-radius: 4px;
+}
+.botonheader ul{
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.zapas{
-    width: 353px;
-    height: 353px;
-    padding: 30px;
-}
-
-/*.img a img{
-    width: 25px;
-}
-.imgimg{
-    justify-content: flex-end;
-}*/
-
-.seccionimg{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.caja{
-    justify-content: space-around;
-}
-.imgfooter{
-    display: flex;
-    justify-content: space-evenly;
-}
-.imgfooter img{
-    height: 40px;
 }
 header{
     background-color: #CCCBCB;
     max-width: 1500px;
     margin: 0 auto;
 }
+.h{
+    display: flex;
+    justify-content: space-between;
+}
 .secheader{
     display: flex;
 }
+/*imagenes*/
+.img{
+    position: relative;
+    width: 300px;
+}
+.zapas{
+    width: 250px;
+}
+.zapas2{
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.img:hover .zapas2{
+    opacity: 1;
+}
+.img:hover .corazon{
+    position: absolute;
+}
+.corazon{
+    position: absolute;
+}
+.corazon a img{
+    width: 25px;
+}
+.seccionimg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.caja{
+    width: 25%;
+}
+/*main*/
 main{
-    max-width: 1700px;
-    margin: 0 auto;
+    max-width: 70%;
+    margin: 50px auto;
+}
+/*ajustes footer*/
+footer{
+    background-color: #CCCBCB;
+}
+.imgfooter{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgfooter img{
+    height: 25px;
 }
