@@ -5,31 +5,31 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /*ajustes header*/
-
+/*nav*/
 .navheader ul{
     list-style: none;
 }
 .navheader ul li{
     display: inline;
-    padding: 10px;
+    margin: 0 auto;
+    text-decoration: none;
 }
-.botonheader{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #3b3a3a;
-    width: 100px;
-    height: 50px;
-    border-radius: 4px;
+/*boton*/
+.botonheader a{
+    text-decoration: none;
+    border: 1px solid black;
+    height: 20%;
+    width: 20%;
+    align-items: center;
 }
 .botonheader ul{
-    list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
+/*header*/
 header{
+    display: flex;
     background-color: #CCCBCB;
-    max-width: 1500px;
+    max-width: 70%;
     margin: 0 auto;
 }
 .h{
@@ -53,6 +53,7 @@ header{
     top: 0;
     left: 0;
     opacity: 0;
+    transition: .3s ease;
 }
 .img:hover .zapas2{
     opacity: 1;
@@ -66,13 +67,14 @@ header{
 .corazon a img{
     width: 25px;
 }
+/*caja organización*/
 .seccionimg{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .caja{
-    width: 25%;
+    width: 30%;
 }
 /*main*/
 main{
@@ -82,11 +84,12 @@ main{
 /*ajustes footer*/
 footer{
     background-color: #CCCBCB;
+    height: 40px;
 }
 .imgfooter{
-    height: 50px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 .imgfooter img{
     height: 25px;
